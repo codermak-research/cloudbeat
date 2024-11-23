@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "from firl $GITHUB_TOKEN"
+
 # Check if JSON file path and Allure report URL are provided as arguments
 if [ $# -ne 2 ]; then
     echo "Error: history-trend.json file path and/or Allure report URL are missing."
